@@ -1,0 +1,278 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ............Home Section............ */
+
+.Home {
+    height: 900px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('img/aadi.jpg') no-repeat;
+    background-size: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+}
+
+.left {
+    color: white;
+    width: 100px;
+    transition: all 5sec ease-in-out;
+}
+
+.left :hover {
+    transform: skew(15deg);
+}
+
+.left img {
+    width: 110px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#gymName {
+    margin-top: 10px;
+    text-align: center;
+    color: cyan;
+    font-size: 20px;
+    text-decoration: overline;
+    line-height: 30px;
+
+}
+
+.mid ul {
+    display: block;
+    margin: auto;
+    align-content: center;
+    display: flex;
+}
+
+.right {
+    color: white;
+}
+
+.navbar li {
+    list-style: none;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: cyan;
+}
+
+.btn {
+    margin: 8px 14px;
+    color: white;
+    background-color: black;
+    padding: 6px 9px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+    height: 40px;
+    width: 100px;
+    color: cyan;
+    font-size: 15px;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgb(166, 236, 236);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 45px;
+    width: 460px;
+    margin: 70px 10%;
+    height: 30rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form input {
+    padding: 7px;
+    font-size: 20px;
+    border: 2px solid cyan;
+    border-radius: 17px;
+}
+
+#button {
+    height: 40px;
+    text-overflow: hidden;
+    width: 100px;
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+#button:hover {
+    height: 45px;
+    width: 105px;
+    color: cyan;
+}
+
+/* ......About Section............ */
+.About {
+    height:1000px;
+background-color: black;
+
+    width: 100%;
+}
+
+.aboutHeading{
+    margin: 0;
+    text-align: center;
+    border-top: 2px solid cyan;
+    /* border-bottom: 2px solid cyan; */
+    color: cyan;
+}
+.card{
+    margin-top: 50px;
+    /* border: 2px solid cyan; */
+    border-radius: 10px;
+    height: fit-content;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+    /* height: 30%; */
+}
+.card h2{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform:uppercase ;
+
+}
+.card img{
+    height: 30%;
+    width: 70%;
+    border: 1px solid cyan;
+    border-radius: 5px;
+}
+.card p{
+    padding: 20px;
+}
+.cardCollection{
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 50px;
+}
+hr{
+    width: 70%;
+}
+.owner{
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+.owner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.owner img{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+}
+.trainer{
+    /* border: 1px solid white; */
+    margin-bottom: 20px;
+    display: block;
+   text-align: center;
+    margin: auto;
+}
+.contact{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+}
+.contactForm{
+    height: 80%;
+    border: 2px solid white;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form1{
+    /* border: 2px solid rgb(226, 213, 213); */
+    display: block;
+    width: 500px;
+}
+.form1 input{
+    display: block;
+width:100%;
+height: 30px;
+text-align: center;
+border: none;
+border-radius: 5px;
+}
+.form1 textarea{
+    display: block;
+    width:100%;
+    /* height: 30px */
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.contactContainer{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    
+}
